@@ -1,0 +1,259 @@
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('DroidSerif-BoldItalic.eot');
+    src: url('DroidSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('DroidSerif-BoldItalic.woff2') format('woff2'),
+        url('DroidSerif-BoldItalic.woff') format('woff'),
+        url('DroidSerif-BoldItalic.ttf') format('truetype'),
+        url('DroidSerif-BoldItalic.svg#DroidSerif-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('DroidSerif-Italic.eot');
+    src: url('DroidSerif-Italic.eot?#iefix') format('embedded-opentype'),
+        url('DroidSerif-Italic.woff2') format('woff2'),
+        url('DroidSerif-Italic.woff') format('woff'),
+        url('DroidSerif-Italic.ttf') format('truetype'),
+        url('DroidSerif-Italic.svg#DroidSerif-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('DroidSerif-Bold.eot');
+    src: url('DroidSerif-Bold.eot?#iefix') format('embedded-opentype'),
+        url('DroidSerif-Bold.woff2') format('woff2'),
+        url('DroidSerif-Bold.woff') format('woff'),
+        url('DroidSerif-Bold.ttf') format('truetype'),
+        url('DroidSerif-Bold.svg#DroidSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Droid Serif';
+    src: url('DroidSerif.eot');
+    src: url('DroidSerif.eot?#iefix') format('embedded-opentype'),
+        url('DroidSerif.woff2') format('woff2'),
+        url('DroidSerif.woff') format('woff'),
+        url('DroidSerif.ttf') format('truetype'),
+        url('DroidSerif.svg#DroidSerif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('ArialMT-Medium.eot');
+    src: url('ArialMT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT-Medium.woff2') format('woff2'),
+        url('ArialMT-Medium.woff') format('woff'),
+        url('ArialMT-Medium.ttf') format('truetype'),
+        url('ArialMT-Medium.svg#ArialMT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('ArialMT-MediumItalic.eot');
+    src: url('ArialMT-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT-MediumItalic.woff2') format('woff2'),
+        url('ArialMT-MediumItalic.woff') format('woff'),
+        url('ArialMT-MediumItalic.ttf') format('truetype'),
+        url('ArialMT-MediumItalic.svg#ArialMT-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMTBold.eot');
+    src: url('ArialRoundedMTBold.eot?#iefix') format('embedded-opentype'),
+        url('ArialRoundedMTBold.woff2') format('woff2'),
+        url('ArialRoundedMTBold.woff') format('woff'),
+        url('ArialRoundedMTBold.ttf') format('truetype'),
+        url('ArialRoundedMTBold.svg#ArialRoundedMTBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('ArialMTBlack-Regular.eot');
+    src: url('ArialMTBlack-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ArialMTBlack-Regular.woff2') format('woff2'),
+        url('ArialMTBlack-Regular.woff') format('woff'),
+        url('ArialMTBlack-Regular.ttf') format('truetype'),
+        url('ArialMTBlack-Regular.svg#ArialMTBlack-Regular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMT-ExtraBold.eot');
+    src: url('ArialRoundedMT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('ArialRoundedMT-ExtraBold.woff2') format('woff2'),
+        url('ArialRoundedMT-ExtraBold.woff') format('woff'),
+        url('ArialRoundedMT-ExtraBold.ttf') format('truetype'),
+        url('ArialRoundedMT-ExtraBold.svg#ArialRoundedMT-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ArialMT';
+    src: url('ArialMT.eot');
+    src: url('ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT.woff2') format('woff2'),
+        url('ArialMT.woff') format('woff'),
+        url('ArialMT.ttf') format('truetype'),
+        url('ArialMT.svg#ArialMT') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMT.eot');
+    src: url('ArialRoundedMT.eot?#iefix') format('embedded-opentype'),
+        url('ArialRoundedMT.woff2') format('woff2'),
+        url('ArialRoundedMT.woff') format('woff'),
+        url('ArialRoundedMT.ttf') format('truetype'),
+        url('ArialRoundedMT.svg#ArialRoundedMT') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('Arial-BoldMT.eot');
+    src: url('Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+        url('Arial-BoldMT.woff2') format('woff2'),
+        url('Arial-BoldMT.woff') format('woff'),
+        url('Arial-BoldMT.ttf') format('truetype'),
+        url('Arial-BoldMT.svg#Arial-BoldMT') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('Arial-BoldItalicMT.eot');
+    src: url('Arial-BoldItalicMT.eot?#iefix') format('embedded-opentype'),
+        url('Arial-BoldItalicMT.woff2') format('woff2'),
+        url('Arial-BoldItalicMT.woff') format('woff'),
+        url('Arial-BoldItalicMT.ttf') format('truetype'),
+        url('Arial-BoldItalicMT.svg#Arial-BoldItalicMT') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('ArialMT-BlackItalic.eot');
+    src: url('ArialMT-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT-BlackItalic.woff2') format('woff2'),
+        url('ArialMT-BlackItalic.woff') format('woff'),
+        url('ArialMT-BlackItalic.ttf') format('truetype'),
+        url('ArialMT-BlackItalic.svg#ArialMT-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMT-Light.eot');
+    src: url('ArialRoundedMT-Light.eot?#iefix') format('embedded-opentype'),
+        url('ArialRoundedMT-Light.woff2') format('woff2'),
+        url('ArialRoundedMT-Light.woff') format('woff'),
+        url('ArialRoundedMT-Light.ttf') format('truetype'),
+        url('ArialRoundedMT-Light.svg#ArialRoundedMT-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('ArialMT-Light.eot');
+    src: url('ArialMT-Light.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT-Light.woff2') format('woff2'),
+        url('ArialMT-Light.woff') format('woff'),
+        url('ArialMT-Light.ttf') format('truetype'),
+        url('ArialMT-Light.svg#ArialMT-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('Arial-ItalicMT.eot');
+    src: url('Arial-ItalicMT.eot?#iefix') format('embedded-opentype'),
+        url('Arial-ItalicMT.woff2') format('woff2'),
+        url('Arial-ItalicMT.woff') format('woff'),
+        url('Arial-ItalicMT.ttf') format('truetype'),
+        url('Arial-ItalicMT.svg#Arial-ItalicMT') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT Extra';
+    src: url('ArialMT-ExtraBoldItalic.eot');
+    src: url('ArialMT-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT-ExtraBoldItalic.woff2') format('woff2'),
+        url('ArialMT-ExtraBoldItalic.woff') format('woff'),
+        url('ArialMT-ExtraBoldItalic.ttf') format('truetype'),
+        url('ArialMT-ExtraBoldItalic.svg#ArialMT-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT';
+    src: url('ArialMT-LightItalic.eot');
+    src: url('ArialMT-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT-LightItalic.woff2') format('woff2'),
+        url('ArialMT-LightItalic.woff') format('woff'),
+        url('ArialMT-LightItalic.ttf') format('truetype'),
+        url('ArialMT-LightItalic.svg#ArialMT-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial MT Extra';
+    src: url('ArialMT-ExtraBold.eot');
+    src: url('ArialMT-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('ArialMT-ExtraBold.woff2') format('woff2'),
+        url('ArialMT-ExtraBold.woff') format('woff'),
+        url('ArialMT-ExtraBold.ttf') format('truetype'),
+        url('ArialMT-ExtraBold.svg#ArialMT-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
