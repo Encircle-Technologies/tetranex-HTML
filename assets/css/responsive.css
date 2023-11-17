@@ -1,4 +1,9 @@
 /* Responsive CSS */
+@media screen and (max-width: 1199px){
+    .blog-updates{
+        grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    }
+}
 @media screen and (max-width: 1199px) {
     .sidebar {
         display: block;
@@ -34,13 +39,24 @@
     .zigzag__content {
         padding: 40px 40px;         
     }
+    .zigzaggrid__contentdesc {
+        padding-top: 30px;   
+    }  
+    .zigzaggrid__content {
+        padding: 40px 40px;         
+    }
+    .zigzaggrid_imageright .zigzaggrid__content,
+    .zigzaggrid_imageleft .zigzaggrid__content {
+        padding-left: 40px;
+        padding-right: 40px;  
+    }
     .centerblock__title h2 {
         font-size: 34px;
         line-height: 44px;
     }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .header__logo a img {
         max-width: 190px; 
     }
@@ -51,6 +67,15 @@
     .imagecontent__contentbox,
     .teamgrid__contentbox {
         padding: 40px;
+    }
+    .blog-title a{
+        position: relative;
+        top: 0;
+        height: fit-content;
+    margin: 0;
+    }
+    .post-con-pg .blog-title h1{
+        padding: 0;
     }
 }
 @media screen and (max-width: 991px) {
@@ -151,16 +176,69 @@
     .zigzag__contentdesc {
         padding-top: 20px;
     }
+    .zigzaggrid_imageright .container-custom-xl,
+    .zigzaggrid_imageleft .container-custom-xl {
+        padding: 0 20px;          
+    }
+    .zigzaggrid__imageinner {
+        padding-top: 100%;
+    }
+    .zigzaggrid__content {
+        flex: unset;         
+        padding: 0;
+        padding-top: 30px;
+    }
+    .zigzaggrid_imageright .zigzaggrid__content,
+    .zigzaggrid_imageleft .zigzaggrid__content {
+        padding-left: 0;
+        padding-right: 0;        
+    }
+    .zigzaggrid__image {
+        flex: unset;  
+    }   
+    .zigzaggrid-wrapper .container-custom-xl {
+        padding-right: 20px;         
+    }
+    .zigzaggrid-wrapper {
+        padding: 60px 0;
+    }  
+    .zigzaggrid__contentdesc {
+        padding-top: 20px;
+    }
+    .zigzaggrid_imageleft .zigzaggrid__grid {
+        flex-direction: column-reverse !important;                
+    }   
     .centerblock__title h2 {
         font-size: 26px;
         line-height: 36px;   
     }
     .centerblock__content {
-        padding-top: 20px;
+        padding-top: 20px;   
     }
+    .blog-serch{
+        padding: 12px;
+    }
+    .feedback-form {
+        padding-bottom: 70px;
+    }
+    .post-con-pg .blog-title h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
 }
 @media screen and (max-width: 767px) {
-
+    .post-con-pg .blog-title h1 {
+        font-size: 35px;
+        line-height: 40px;
+        padding: 10px 0;
+    }
+    .news-grid .blog-con{
+        padding: 10px 0 0 0;
+    }
+    .news-grid .blog-updates{
+        gap: 10px;
+    }
 }
 @media screen and (max-width: 575px) {
     .header__logo a img{
@@ -178,7 +256,7 @@
     }
     .imagecontent__image.mobile_image,
     .teamgrid__image.mobile_image {
-        display: block;   
+        display: block;    
     }
     .imagecontent__contentbox,
     .teamgrid__contentbox {
@@ -205,12 +283,22 @@
     .zigzag-wrapper {
         padding: 40px 0;
     }   
+    .zigzaggrid__content {
+        padding-top: 30px;
+    }    
+    .zigzaggrid-wrapper {
+        padding: 20px 0;  
+    }     
     .bannerslider__content--title h1 {
         font-size: 44px;
         line-height: 54px;
     }
     .bannerslider__content--title {
         padding: 12px 20px;
+    }
+    .post-con-pg .blog-title h1 {
+        font-size: 30px;
+        line-height: 40px;
     }
 }
 @media screen and (max-width: 390px) {
@@ -230,7 +318,7 @@
     .icontext__text {
         margin-top: 20px;
     }
-    .regular__title h2 {
+    .normal__title h2, .regular__title h2 {
         font-size: 24px;
         line-height: 30px;
     }

@@ -76,3 +76,27 @@ jQuery(document).ready(function () {
         })
     }
 });
+
+
+// load-more button blog page
+$(function () {
+    $(".blog-card").slice(0, 4).show();
+    $("body").on('click touchstart', '.load-more', function (e) {
+        e.preventDefault();
+        $(".blog-card:hidden").slice(0, 3).slideDown();
+        if ($(".blog-card:hidden").length == 0) {
+            $("#load").css('display', 'none');
+        }
+        $('html,body').animate({
+            scrollTop: $(this).offset().top
+        }, 1000);
+    });
+});
+
+
+// on click add class in blog filter
+$(".filter-li").on('click', 'li', function () {
+    $(".filter-li li.active").removeClass("active");
+    // adding classname 'active' to current click li 
+    $(this).addClass("active");
+});
