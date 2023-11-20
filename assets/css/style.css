@@ -253,8 +253,10 @@ a.btn__link:hover {
   padding: 0 20px;
 }
 .container-custom-xl {
-    padding: 0 20px;
+    padding: 0 0 0 20px;
 }
+
+
 @media screen and (min-width: 991px) {
   .container-custom {
     max-width: 910px;
@@ -264,7 +266,7 @@ a.btn__link:hover {
     padding: 60px 0;
   }
   .container-custom-xl {
-    padding: 0 40px;
+    padding: 0 0 0 40px;
   }    
 }
 @media screen and (min-width: 1199px) {
@@ -276,7 +278,7 @@ a.btn__link:hover {
     padding: 100px 0;
   }
   .container-custom-xl {
-    padding: 0 60px;
+    padding: 0 0 0 60px;
   }
 }
 @media screen and (min-width: 1599px) {
@@ -285,8 +287,9 @@ a.btn__link:hover {
     margin: auto;
   }
   .container-custom-xl {
-    padding: 0 115px;
+    padding: 0 0 0 115px ;
   }
+
 }
 
 /* Animation Start */
@@ -1179,6 +1182,9 @@ body.menu_open {
     flex: 0 1 50%;             
     padding: 75px 90px;
     padding-left: 0; 
+}
+.container-custom-xl-1 .zigzaggrid__content{
+    padding: 75px 90px 75px 115px;
 }
 .zigzaggrid__image {
     flex: 0 1 50%;  
