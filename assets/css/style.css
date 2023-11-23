@@ -1562,4 +1562,7 @@ input#serch-bar{
 .opportunities{
     padding: 70px 0;
 }
+.generalcontent__inner.teamgrid__contentwrapper.teamgrid__contentbox{
+    max-width: 1173px;
+}
 /* connect page end */
