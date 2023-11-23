@@ -77,6 +77,15 @@
     .post-con-pg .blog-title h1{
         padding: 0;
     }
+    .generalcontent__grid-1{
+        padding: 30px 0;
+    }
+    .padding-img{
+        padding-top:30px ;
+    }
+    .opportunities {
+        padding: 40px 0;
+    }
 }
 @media screen and (max-width: 991px) {
     .contentgrid__grid .row .col-lg-6:not(:first-child) .contentgrid__content {
@@ -232,7 +241,14 @@
         font-size: 40px;
         line-height: 50px;
     }
-
+    .safety-logos-inner {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .connect-cir-inner{
+        gap: 0;
+    }
 }
 @media screen and (max-width: 767px) {
     .post-con-pg .blog-title h1 {
@@ -245,6 +261,15 @@
     }
     .news-grid .blog-updates{
         gap: 10px;
+    }
+    .generalcontent__grid-1{
+        padding: 20px 0;
+    }
+    .padding-img{
+        padding-top: 15px;
+    }
+    .load-more-btn a{
+        padding: 10px 25px;
     }
 }
 @media screen and (max-width: 575px) {
@@ -307,6 +332,17 @@
         font-size: 30px;
         line-height: 40px;
     }
+    .filter-li li, .filter-li li a, .service-list li, .service-list li a{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .connect-cir{
+        gap: 40px;
+    }
+    .opportunities {
+        padding: 30px 0;
+    }
+
 }
 @media screen and (max-width: 390px) {
     .bannerslider__content--title h1,
@@ -340,5 +376,9 @@
     .teammember__post h6 {
         font-size: 20px;
         line-height: 28px;   
+    }
+    .safety-logos-inner {
+        display: flex;
+        flex-direction: column;
     }
 }

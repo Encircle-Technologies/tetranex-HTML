@@ -96,7 +96,7 @@ $(function () {
 
 // on click add class in blog filter
 $(".filter-li").on('click', 'li', function () {
-    $(".filter-li li.active").removeClass("active");
+    $(".filter-li li.active , .service-list li.active").removeClass("active");
     // adding classname 'active' to current click li 
     $(this).addClass("active");
 });
